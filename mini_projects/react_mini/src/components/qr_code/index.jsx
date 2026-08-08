@@ -7,7 +7,7 @@ const QrCode = () => {
   const [qr, setQr] = useState("");
 
   function handleGenerateQr() {
-    setQr(input);
+    setQr(input.trim());
     setInput("");
   }
   return (
