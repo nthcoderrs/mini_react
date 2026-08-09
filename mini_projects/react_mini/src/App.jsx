@@ -12,6 +12,7 @@ const App = () => {
     <QrCode/>
     <LoadMoreData/>
     <ImageSlider/>
+    <RandomColor/>
     
     </div>
   )
