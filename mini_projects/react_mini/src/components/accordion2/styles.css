@@ -1,0 +1,155 @@
+/* =========================
+   MAIN PAGE
+========================= */
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #0f1117;
+  color: #fff;
+  font-family: Inter, Arial, sans-serif;
+}
+
+
+/* =========================
+   TOGGLE BUTTON
+========================= */
+
+.toggle {
+  display: block;
+  margin: 50px auto 30px;
+
+  padding: 14px 24px;
+
+  border: 1px solid #333;
+  border-radius: 12px;
+
+  background: linear-gradient(135deg, #1f2937, #111827);
+  color: #fff;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.toggle:hover {
+  transform: translateY(-2px);
+
+  border-color: #6366f1;
+
+  box-shadow:
+    0 12px 30px rgba(99, 102, 241, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.toggle:active {
+  transform: translateY(0);
+}
+
+
+/* =========================
+   ACCORDION ITEM
+========================= */
+
+.title {
+  width: min(700px, calc(100% - 40px));
+
+  margin: 0 auto 12px;
+  padding: 20px 24px;
+
+  box-sizing: border-box;
+
+  border: 1px solid #292d38;
+  border-radius: 14px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(31, 41, 55, 0.95),
+      rgba(17, 24, 39, 0.95)
+    );
+
+  color: #f9fafb;
+
+  font-size: 17px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.25);
+
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease,
+    background 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+
+/* =========================
+   HOVER EFFECT
+========================= */
+
+.title:hover {
+  transform: translateY(-3px);
+
+  border-color: #6366f1;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(39, 48, 70, 0.98),
+      rgba(20, 27, 45, 0.98)
+    );
+
+  box-shadow:
+    0 15px 35px rgba(0, 0, 0, 0.35),
+    0 0 20px rgba(99, 102, 241, 0.08);
+}
+
+
+/* =========================
+   QUESTION + ANSWER TEXT
+========================= */
+
+.title {
+  line-height: 1.6;
+}
+
+
+/* Answer starts on new visual line
+   when React renders it */
+
+.title > * {
+  line-height: 1.6;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+  .toggle {
+    margin-top: 30px;
+  }
+
+  .title {
+    width: calc(100% - 24px);
+    padding: 17px 18px;
+    font-size: 16px;
+  }
+
+}
