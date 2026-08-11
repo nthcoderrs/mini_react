@@ -5,6 +5,7 @@ import LoadMoreData from './components/load_more_data';
 import ImageSlider from './components/image_slider/Index';
 import RandomColor from './components/random_color';
 import Acc from './components/accordion2/Index';
+import UseWindowResizeTest from './components/window_resize/test';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
     {/* <ImageSlider/> */}
     {/* <RandomColor/> */}
     <Acc/>
+    <UseWindowResizeTest/>
     
     </div>
   )
