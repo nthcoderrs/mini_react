@@ -9,6 +9,7 @@ import UseWindowResizeTest from './components/window_resize/test';
 import useWindowResize from './components/window_resize/Index';
 import useOutsideClick from './components/use_outside_click/Index';
 import StarRating from './components/star_rating/Index';
+import TicTacToe from './components/tic_tac_toe/Index';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
     {/* <useWindowResize/> */}
     {/* <useOutsideClick/> */}
     <StarRating/>
+    <TicTacToe/>
     
     
     </div>
