@@ -8,6 +8,7 @@ import Acc from './components/accordion2/Index';
 import UseWindowResizeTest from './components/window_resize/test';
 import useWindowResize from './components/window_resize/Index';
 import useOutsideClick from './components/use_outside_click/Index';
+import StarRating from './components/star_rating/Index';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
     {/* <Acc/> */}
     {/* <useWindowResize/> */}
     {/* <useOutsideClick/> */}
+    <StarRating/>
     
     
     </div>
