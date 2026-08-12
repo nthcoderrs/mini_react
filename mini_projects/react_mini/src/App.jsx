@@ -7,6 +7,7 @@ import RandomColor from './components/random_color';
 import Acc from './components/accordion2/Index';
 import UseWindowResizeTest from './components/window_resize/test';
 import useWindowResize from './components/window_resize/Index';
+import useOutsideClick from './components/use_outside_click/Index';
 
 const App = () => {
   return (
@@ -17,8 +18,10 @@ const App = () => {
     {/* <LoadMoreData/> */}
     {/* <ImageSlider/> */}
     {/* <RandomColor/> */}
-    <Acc/>
-    <useWindowResize/>
+    {/* <Acc/> */}
+    {/* <useWindowResize/> */}
+    {/* <useOutsideClick/> */}
+    
     
     </div>
   )
