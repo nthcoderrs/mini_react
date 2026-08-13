@@ -23,8 +23,8 @@ const App = () => {
     {/* <Acc/> */}
     {/* <useWindowResize/> */}
     {/* <useOutsideClick/> */}
-    <StarRating/>
-    <TicTacToe/>
+    {/* <StarRating/> */}
+    {/* <TicTacToe/> */}
     
     
     </div>
