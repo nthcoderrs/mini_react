@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Suggestions from "./suggesstions";
+import Suggestions from "./Suggestions";
 
 export default function SearchAutocomplete() {
   const [loading, setLoading] = useState(false);
