@@ -11,6 +11,7 @@ import useOutsideClick from './components/use_outside_click/Index';
 import StarRating from './components/star_rating/Index';
 import TicTacToe from './components/tic_tac_toe/Index';
 import useFetch from './components/use_fetch/Index';
+import SearchAutocomplete from './components/search_auto_withapis';
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
     {/* <StarRating/> */}
     {/* <TicTacToe/> */}
     {/* <useFetch/> */}
+    <SearchAutocomplete/>
     
     
     </div>
