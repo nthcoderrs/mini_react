@@ -12,7 +12,8 @@ import StarRating from './components/star_rating/Index';
 import TicTacToe from './components/tic_tac_toe/Index';
 import useFetch from './components/use_fetch/Index';
 import SearchAutocomplete from './components/search_auto_withapis';
-
+import TreeView from "./components/tree-view";
+import menus from "./components/tree-view/data";
 const App = () => {
   return (
     <div>
@@ -29,6 +30,7 @@ const App = () => {
     {/* <TicTacToe/> */}
     {/* <useFetch/> */}
     {/* <SearchAutocomplete/> */}
+    <TreeView menus={menus} /> 
     
     
     </div>
