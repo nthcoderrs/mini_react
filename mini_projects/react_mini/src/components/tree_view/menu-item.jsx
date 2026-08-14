@@ -27,7 +27,9 @@ export default function MenuItem({ item }) {
         ) : null}
       </div>
 
-      
+      {item && item.children && item.children.length > 0 && displayCurrentChildren[item.label] ? (
+        <MenuList list={item.children} />
+      ) : null}
     </li>
   );
 }
