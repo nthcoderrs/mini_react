@@ -28,7 +28,7 @@ const App = () => {
     {/* <StarRating/> */}
     {/* <TicTacToe/> */}
     {/* <useFetch/> */}
-    <SearchAutocomplete/>
+    {/* <SearchAutocomplete/> */}
     
     
     </div>
